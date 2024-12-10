@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <title>Index</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+    <script src="cripttype.js" defer></script>
 </head>
 <body>
-<div id="user-container" class="user-container">
+<div class="game-container">
+    <div class="order-area">
+        <h2> Order</h2>
+        <div id="order-display" class="order-display"></div>
+        <div id="ingredients-display" class="ingredients-display"></div>
+    </div>
+
+    <div class="ingredient-tray">
+        <h2>Ingredients</h2>
+        <div id="ingredient-list" class="ingredient-list"></div>
+    </div>
+
+    <div id="score-board">
+        <p>Score: <span id="score">0</span></p>
+        <p>Time: <span id="time">60</span> seconds</p>
+    </div>
+    <div class="controls p10">
+        <button id="submit-order" class="submit-btn">Submit</button>
+        <button id="save-game" class="control-btn">Save</button>
+        <button id="load-game" class="control-btn">Load</button>
+    </div>
 </div>
+
+
+
+
 </body>
 </html>
